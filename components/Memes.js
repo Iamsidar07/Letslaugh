@@ -11,6 +11,7 @@ const Memes = ({memes}) => {
                 src={url}
                 layout="fill"
                 objectFit='contain'
+                alt={id}
             />
         </div>
       })}

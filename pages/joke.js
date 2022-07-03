@@ -40,7 +40,7 @@ const joke = ({ happy }) => {
       setJokes(data.result);
     };
     getData();
-  }, []);
+  }, [keywords]);
 
   return (
     <div className=" py-16 md:py-24  max-w-6xl mx-auto">

@@ -41,7 +41,7 @@ const anime = ({ smile }) => {
       setAnimes(data);
     };
     getData();
-  },[]);
+  },[keywords]);
 
 
   return (

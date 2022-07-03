@@ -15,6 +15,7 @@ const Animes = ({ animes }) => {
               layout="responsive"
               width={width}
               height={height}
+              alt={image_id}
             />
             <div className="cursor-pointer px-6 py-4">
               <p className="text-gray-700  group-hover:font-bold text-base">
