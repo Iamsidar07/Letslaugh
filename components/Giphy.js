@@ -3,7 +3,7 @@ import React from 'react'
 const Giphy = () => {
   return (
     <div>
-      
+      Giphy
     </div>
   )
 }

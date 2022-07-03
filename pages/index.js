@@ -2,7 +2,7 @@ import Head from "next/head";
 import { useState } from "react";
 import CrushIntro from "../components/CrushIntro";
 import Intro from "../components/Intro";
-import Navbar from "../components/Navbar";
+
 
 export async function getServerSideProps() {
   // const anime_res = await fetch("https://anime-facts-rest-api.herokuapp.com/api/v1");

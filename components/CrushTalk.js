@@ -11,10 +11,11 @@ const CrushTalk = () => {
     method: "GET",
     headers: {
       Authorization: "KUUzfUjnZZfd",
-      "X-RapidAPI-Key": "fd28a55161msh7da33805bbdd551p120cd7jsn690f8855fdf6",
+      "X-RapidAPI-Key": process.env.NEXT_PUBLIC_API_KEY1,
       "X-RapidAPI-Host": "random-stuff-api.p.rapidapi.com",
     },
   };
+
 
   const talkToLove = (e) => {
     e.preventDefault();

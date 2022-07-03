@@ -19,7 +19,7 @@ const joke = ({ meme }) => {
   const [loading, setLoading] = useState(false);
   const [memes, setMemes] = useState([]);
 
-  const apiKey = "ce4dcdc73a4841e983781c40d7314d0e";
+  const apiKey = process.env.NEXT_PUBLIC_API_KEY2;
   const getMemes = (e) => {
     e.preventDefault();
     const getData = async function () {
